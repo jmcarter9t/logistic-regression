@@ -4,3 +4,6 @@
 [submodule "spdlog"]
 	path = spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "cpp_utilities"]
+	path = cpp_utilities
+	url = https://github.com/jmcarter9t/cpp_utilities.git

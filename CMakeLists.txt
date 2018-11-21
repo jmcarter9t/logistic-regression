@@ -12,6 +12,7 @@ find_package( Threads )
 include_directories("${CMAKE_SOURCE_DIR}/include")
 include_directories("${CMAKE_SOURCE_DIR}/spdlog/include")
 include_directories("${CMAKE_SOURCE_DIR}/eigen-git-mirror/Eigen")
+include_directories("${CMAKE_SOURCE_DIR}/cpp_utilities/include")
 
 add_executable(lr "")
 target_link_libraries(lr ${CMAKE_THREAD_LIBS_INIT})
